@@ -44,7 +44,7 @@ void setMode(char* dst, int mode);
 void connectWifi(char* dst, char *ssid, char *password);
 void setLinkMode(char* dst, int mode);
 
-void disconnectWifi();    // TODO future implementation
+void disconnectWifi(char* dst);
 
 // server
 void startServer(char* dst, int port);
