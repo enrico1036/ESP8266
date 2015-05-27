@@ -4,7 +4,7 @@ A c library to encapsulate and decapsulate AT strings for the ESP8266 module int
 This library provides a set of functions to prepare and read AT commands exchanged with the ESP8266 module.
 ####Important! The library doesn't actually sends or receive data from the module but only prepare the string to be sent by the user
 
-For example, a receiving message is formatted like "+IPD,0,11:Hello World", the unwrap function decapsulates the message and fills an char array with "Hello World"
+For example, a receiving message is formatted like _"+IPD,0,11:Hello World"_, the unwrap function decapsulates the message and fills an char array with _"Hello World"_
 
 ##References:
 Each following function need an array to be filled with the message
