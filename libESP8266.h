@@ -21,6 +21,11 @@ enum wifiModes {
     WIFI_MODE_APSTA
 };
 
+enum wifiLinkModes {
+	ONE_CONNECTION = 0,
+	MULTIPLE_CONNECTIONS
+};
+
 enum wifiErrors {
     WIFI_ERR_NONE = 0,
     WIFI_ERR_AT,
